@@ -1,12 +1,8 @@
-import "./App.css"
-import Heading from "@/components/Heading"
+import "@/App.css"
+import { Home } from "@/pages/Home"
 
 function App() {
-  return (
-    <>
-      <Heading type="h4">Olá Mundo com Componente</Heading>
-    </>
-  )
+  return <Home />
 }
 
 export default App
