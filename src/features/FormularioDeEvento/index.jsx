@@ -1,10 +1,10 @@
 import "./formulario-de-evento.estilos.css"
-import { CampoDeEntrada } from "@/componentes/form/CampoDeEntrada"
-import { CampoDeFormulario } from "@/componentes/form/CampoDeFormulario"
-import { Label } from "@/componentes/form/Label"
-import { TituloFormulario } from "@/componentes/form/TituloFormulario"
-import { Botao } from "@/componentes/form/Botao"
-import { ListaSuspensa } from "@/componentes/form/ListaSuspensa"
+import { CampoDeEntrada } from "@/componentes/Form/CampoDeEntrada"
+import { CampoDeFormulario } from "@/componentes/Form/CampoDeFormulario"
+import { Label } from "@/componentes/Form/Label"
+import { TituloFormulario } from "@/componentes/Form/TituloFormulario"
+import { Botao } from "@/componentes/Form/Botao"
+import { ListaSuspensa } from "@/componentes/Form/ListaSuspensa"
 
 export function FormularioDeEvento() {
   return (
