@@ -3,7 +3,7 @@ import { Banner } from "@/features/Banner"
 import { FormularioDeEvento } from "@/features/FormularioDeEvento"
 import { Card } from "@/features/Card"
 
-export function Home() {
+export default function Home() {
   return (
     <main>
       <Header />

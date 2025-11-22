@@ -1,8 +1,8 @@
 import "@/App.css"
-import { Home } from "@/pages/Home"
+import AplicationRoutes from "./routes/AplicationRoutes"
 
 function App() {
-  return <Home />
+  return <AplicationRoutes />
 }
 
 export default App
