@@ -1,11 +1,13 @@
 import Modal from "@/componentes/Modal"
 import { useState } from "react"
 import { Button } from "@/componentes/Form/Button"
+import { Button2 } from "../../componentes/Form/Button2"
 
 export default function index() {
   const [isOpen, setIsOpen] = useState(false)
   const [isActive, setIsActive] = useState(true)
   const btColor = isActive ? "blue" : "red"
+  const [count, setCount] = useState(0)
 
   return (
     <div>
@@ -25,6 +27,10 @@ export default function index() {
       <Button setIsActive={setIsActive} btColor={btColor}>
         Azul / vermelho
       </Button>
+      <h2>Desafio 3</h2>
+      <Button2 onClick={() => setCount((prev) => prev + 1)}>
+        Contador: {count}
+      </Button2>
     </div>
   )
 }
