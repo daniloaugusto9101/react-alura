@@ -1,8 +1,11 @@
 import Modal from "@/componentes/Modal"
 import { useState } from "react"
+import { Button } from "@/componentes/Form/Button"
 
 export default function index() {
   const [isOpen, setIsOpen] = useState(false)
+  const [isActive, setIsActive] = useState(true)
+  const btColor = isActive ? "blue" : "red"
 
   return (
     <div>
@@ -13,6 +16,15 @@ export default function index() {
       </p>
       <button onClick={() => setIsOpen(true)}>Abrir</button>
       {isOpen && <Modal setIsOpen={setIsOpen} />}
+
+      <h2>Desafio 2</h2>
+      <p>
+        Criei um botão, que ao clicar nele ele alterna entre azul e vermelho,
+        onde azul é do estado ativo e vermelho do estado inativo
+      </p>
+      <Button setIsActive={setIsActive} btColor={btColor}>
+        Azul / vermelho
+      </Button>
     </div>
   )
 }
