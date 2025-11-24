@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router-dom"
 import Home from "@/pages/Home"
 import Alura from "@/pages/Alura"
-import Contact from "@/pages/Contact"
+import PageUseState from "@/pages/PageUseState"
 import RootLayout from "@/layout/RootLayout"
 
 export const router = createBrowserRouter([
@@ -19,8 +19,8 @@ export const router = createBrowserRouter([
         element: <Alura />,
       },
       {
-        path: "/contact",
-        element: <Contact />,
+        path: "/useState",
+        element: <PageUseState />,
       },
     ],
   },
