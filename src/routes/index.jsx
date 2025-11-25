@@ -3,6 +3,7 @@ import Home from "@/pages/Home"
 import Alura from "@/pages/Alura"
 import PageUseState from "@/pages/PageUseState"
 import RootLayout from "@/layout/RootLayout"
+import PageUseRef from "@/pages/PageUseRef"
 
 export const router = createBrowserRouter([
   {
@@ -21,6 +22,10 @@ export const router = createBrowserRouter([
       {
         path: "/useState",
         element: <PageUseState />,
+      },
+      {
+        path: "/useRef",
+        element: <PageUseRef />,
       },
     ],
   },

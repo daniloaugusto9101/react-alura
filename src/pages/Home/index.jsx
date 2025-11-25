@@ -9,6 +9,10 @@ export default function Home() {
         <li>
           <a href="/useState">useState</a>
         </li>
+
+        <li>
+          <a href="/useRef">useRef</a>
+        </li>
       </ul>
     </main>
   )
