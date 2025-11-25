@@ -24,7 +24,7 @@ export default function index() {
         Criei um botão, que ao clicar nele ele alterna entre azul e vermelho,
         onde azul é do estado ativo e vermelho do estado inativo
       </p>
-      <Button setIsActive={setIsActive} btColor={btColor}>
+      <Button onClick={() => setIsActive((prev) => !prev)} btColor={btColor}>
         Azul / vermelho
       </Button>
       <h2>Desafio 3</h2>

@@ -1,11 +1,8 @@
 import "./button.estilos.css"
 
-export function Button({ children, setIsActive, btColor }) {
+export function Button({ children, onClick, btColor }) {
   return (
-    <button
-      style={{ backgroundColor: btColor }}
-      onClick={() => setIsActive((prev) => !prev)}
-    >
+    <button style={{ backgroundColor: btColor }} onClick={onClick}>
       {children}
     </button>
   )
