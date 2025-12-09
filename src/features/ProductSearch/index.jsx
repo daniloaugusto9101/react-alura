@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { Button2 } from "../../componentes/Form/Button2"
+import { Button2 } from "@/componentes/Form/Button2"
 
 export default function ProductSearch() {
   const [isLoading, setIsLoading] = useState(false)

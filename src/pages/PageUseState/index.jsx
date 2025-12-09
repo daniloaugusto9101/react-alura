@@ -1,8 +1,8 @@
-import Card from "../../componentes/Card"
-import ModalExample from "../../features/ModalExample"
-import ToggleButton from "../../features/ToggleButton"
-import CounterButton from "../../features/CounterButton"
-import ProductSearch from "../../features/ProductSearch"
+import Card from "@/componentes/Card"
+import ModalExample from "@/features/ModalExample"
+import ToggleButton from "@/features/ToggleButton"
+import CounterButton from "@/features/CounterButton"
+import ProductSearch from "@/features/ProductSearch"
 
 export default function index() {
   return (
