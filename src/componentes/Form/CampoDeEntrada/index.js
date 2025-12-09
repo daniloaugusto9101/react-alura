@@ -1,0 +1,1 @@
+export { CampoDeEntrada } from "./CampoDeEntrada"

@@ -1,0 +1,1 @@
+export { ListaSuspensa } from "./ListaSuspensa"
