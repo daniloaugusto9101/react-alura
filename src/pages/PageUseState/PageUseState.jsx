@@ -1,4 +1,4 @@
-import Card from "@/componentes/Card"
+import Card from "@/components/Card"
 import ModalExample from "@/features/ModalExample"
 import ToggleButton from "@/features/ToggleButton"
 import CounterButton from "@/features/CounterButton"

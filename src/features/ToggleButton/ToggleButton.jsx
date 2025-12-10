@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { Button } from "@/componentes/Form/Button"
+import { Button } from "@/components/Form/Button"
 
 export default function ToggleButton() {
   const [isActive, setIsActive] = useState(true)

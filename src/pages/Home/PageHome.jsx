@@ -1,4 +1,4 @@
-import CardLink from "@/componentes/CardLink"
+import CardLink from "@/components/CardLink"
 
 export default function Home() {
   const examples = [

@@ -1,5 +1,5 @@
-import Card from "@/componentes/Card"
-import ClickCounter from "@/componentes/ClickCounter"
+import Card from "@/components/Card"
+import ClickCounter from "@/components/ClickCounter"
 
 export default function PageUseRef() {
   return (

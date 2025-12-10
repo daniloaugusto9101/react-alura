@@ -1,5 +1,5 @@
-import { CardEvento } from "@/componentes/CardEvento"
-import { Tema } from "@/componentes/Form/Tema"
+import { CardEvento } from "@/components/CardEvento"
+import { Tema } from "@/components/Form/Tema"
 
 export function Card() {
   const temas = [
