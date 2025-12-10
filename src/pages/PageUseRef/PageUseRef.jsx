@@ -1,37 +1,23 @@
-import React from "react"
+import Card from "@/componentes/Card"
+import ClickCounter from "@/componentes/ClickCounter"
 
 export default function PageUseRef() {
-  const dialogRef = React.useRef(null)
-
-  const openDialog = () => {
-    dialogRef.current.showModal()
-  }
-
-  // "Close" button closes the dialog
-  const closeDialog = () => {
-    console.log("close")
-    dialogRef.current.close()
-  }
-
   return (
-    <div>
-      <h1>Page useRef</h1>
-      <h2>
-        <b>Desafio 1</b>
-      </h2>
-      <p>
-        por meio de um botao faz que o modal Dialog padroa do html aparece na
-        tela
-      </p>
-      <dialog ref={dialogRef}>
-        <button autoFocus onClick={closeDialog}>
-          Close
-        </button>
-        <p>This modal dialog has a groovy backdrop!</p>
-      </dialog>
-      <button className="bg-red-200" onClick={openDialog}>
-        Show the dialog
-      </button>
-    </div>
+    <>
+      <div className="min-h-screen bg-gray-50 py-8 px-4">
+        <div className="max-w-3xl mx-auto space-y-6">
+          <h1 className="text-3xl font-bold text-gray-800 mb-8">
+            Exemplos uesRef
+          </h1>
+
+          <Card
+            title="Desafio 1"
+            description="Vamos supor que você queira guardar quantas vezes um botão foi clicado, mas sem re-renderizar o componente a cada clique. Olha só que tranquilo:"
+          >
+            <ClickCounter />
+          </Card>
+        </div>
+      </div>
+    </>
   )
 }
