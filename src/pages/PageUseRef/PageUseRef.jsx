@@ -1,5 +1,5 @@
 import Card from "@/components/Card"
-import ClickCounter from "@/components/ClickCounter"
+import ClickCounter from "@/features/ClickCounter"
 
 export default function PageUseRef() {
   return (
@@ -12,7 +12,7 @@ export default function PageUseRef() {
 
           <Card
             title="Desafio 1"
-            description="Vamos supor que você queira guardar quantas vezes um botão foi clicado, mas sem re-renderizar o componente a cada clique. Olha só que tranquilo:"
+            description="Vamos supor que você queira guardar quantas vezes um botão foi clicado, mas sem re-renderizar o componente a cada clique. e ao mesmo tempo fazemos a o focus do input. "
           >
             <ClickCounter />
           </Card>

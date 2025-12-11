@@ -30,6 +30,13 @@ export default function Home() {
       description: "Formulário",
       gradient: "bg-gradient-to-r from-orange-500 to-red-500",
     },
+    {
+      id: 5,
+      href: "/context-api",
+      title: "Context API",
+      description: "Gerenciamento de estado global",
+      gradient: "bg-gradient-to-r from-teal-500 to-lime-500",
+    },
   ]
 
   return (

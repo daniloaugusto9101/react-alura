@@ -4,6 +4,7 @@ import Alura from "@/pages/Alura"
 import PageUseState from "@/pages/PageUseState"
 import RootLayout from "@/layout/RootLayout"
 import PageUseRef from "@/pages/PageUseRef"
+import PageContextApi from "@/pages/PageContextApi"
 
 export const router = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ export const router = createBrowserRouter([
       {
         path: "/useRef",
         element: <PageUseRef />,
+      },
+      {
+        path: "/context-api",
+        element: <PageContextApi />,
       },
     ],
   },
