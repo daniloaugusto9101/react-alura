@@ -37,6 +37,13 @@ export default function Home() {
       description: "Gerenciamento de estado global",
       gradient: "bg-gradient-to-r from-teal-500 to-lime-500",
     },
+    {
+      id: 6,
+      href: "/typecscript",
+      title: "Typescript",
+      description: "Componente com typescript",
+      gradient: "bg-gradient-to-r from-teal-500 to-lime-500",
+    },
   ]
 
   return (

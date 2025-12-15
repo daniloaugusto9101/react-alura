@@ -5,6 +5,7 @@ import PageUseState from "@/pages/PageUseState"
 import RootLayout from "@/layout/RootLayout"
 import PageUseRef from "@/pages/PageUseRef"
 import PageContextApi from "@/pages/PageContextApi"
+import PageTypescript from "@/pages/PageTypescript"
 
 export const router = createBrowserRouter([
   {
@@ -31,6 +32,10 @@ export const router = createBrowserRouter([
       {
         path: "/context-api",
         element: <PageContextApi />,
+      },
+      {
+        path: "/typecscript",
+        element: <PageTypescript />,
       },
     ],
   },
