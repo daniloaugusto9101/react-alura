@@ -1,12 +1,6 @@
 import "./App.css"
-import Button from "@/components/Button/Button"
+import AplicationRoutes from "@/routes/AplicationRoutes"
 
-function App() {
-  return (
-    <>
-      <Button />
-    </>
-  )
+export default function App() {
+  return <AplicationRoutes />
 }
-
-export default App
