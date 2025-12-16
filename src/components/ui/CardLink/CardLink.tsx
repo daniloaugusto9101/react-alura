@@ -1,4 +1,11 @@
-export default function CardLink({ href, title, description, gradient }) {
+import type { CardLinkProps } from "@/components/ui/CardLink/CardLink.types"
+
+export default function CardLink({
+  href = "#",
+  title = "Titulo teste",
+  description = "Descrição teste",
+  gradient = "bg-gradient-to-r from-purple-500 to-pink-500",
+}: CardLinkProps) {
   return (
     <li>
       <a
