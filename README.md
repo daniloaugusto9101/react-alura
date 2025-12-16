@@ -54,11 +54,45 @@ src/
 │
 ├── components/
 │   ├── ui/
+│   │   ├── CardLink/
+│   │   │   ├── CardLink.tsx
+│   │   │   ├── CardLink.types.ts
+│   │   │   ├── CardLink.styles.ts
+│   │   │   ├── CardLink.test.tsx
+│   │   │   ├── CardLink.stories.tsx
+│   │   │   └── index.ts
+│   │   │
+│   │   ├── Button/
+│   │   │   ├── Button.tsx
+│   │   │   ├── Button.types.ts
+│   │   │   ├── Button.test.tsx
+│   │   │   └── index.ts
+│   │   │
+│   │   └── Input/
+│   │       ├── Input.tsx
+│   │       ├── Input.types.ts
+│   │       ├── Input.test.tsx
+│   │       └── index.ts
+│   │
 │   ├── layout/
+│   │   ├── Header/
+│   │   │   ├── Header.tsx
+│   │   │   └── index.ts
+│   │   └── Sidebar/
+│   │       ├── Sidebar.tsx
+│   │       └── index.ts
+│   │
 │   └── feedback/
+│       ├── Modal/
+│       │   ├── Modal.tsx
+│       │   └── index.ts
+│       └── Toast/
+│           ├── Toast.tsx
+│           └── index.ts
 │
 ├── services/
 │   ├── http/
+│   │   └── axios.ts
 │   ├── interceptors/
 │   └── api.ts
 │
