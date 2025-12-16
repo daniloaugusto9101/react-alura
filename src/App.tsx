@@ -1,9 +1,10 @@
 import "./App.css"
+import Button from "@/components/Button/Button"
 
 function App() {
   return (
     <>
-      <div className="bg-red-400">teste</div>
+      <Button />
     </>
   )
 }
