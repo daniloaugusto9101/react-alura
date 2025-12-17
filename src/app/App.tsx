@@ -1,5 +1,5 @@
 import "./App.css"
-import AplicationRoutes from "@/routes/AplicationRoutes"
+import AplicationRoutes from "@/app/providers"
 
 export default function App() {
   return <AplicationRoutes />

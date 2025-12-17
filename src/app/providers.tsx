@@ -1,5 +1,5 @@
+import { router } from "@/routes"
 import { RouterProvider } from "react-router-dom"
-import { router } from "./"
 
 const AplicationRoutes = () => {
   return <RouterProvider router={router} />
