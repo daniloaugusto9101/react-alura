@@ -4,8 +4,15 @@
 src/
 ├── app/
 │   ├── App.tsx
-│   ├── routes.tsx
-│   └── providers.tsx
+│   ├── providers.tsx
+│   └── index.tsx        # composição da app
+│
+├── routes/
+│   ├── index.tsx        # RouterProvider / createBrowserRouter
+│   ├── public.routes.tsx
+│   ├── private.routes.tsx
+│   ├── admin.routes.tsx (futuro)
+│   └── types.ts
 │
 ├── pages/
 │   ├── Home/
