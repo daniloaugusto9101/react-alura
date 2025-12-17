@@ -1,5 +1,6 @@
 import Card from "@/components/ui/Card"
 import PageContainer from "@/components/ui/PageContainer"
+import ButtonIncrement from "@/features/ButtonIncrement"
 import ModalExample from "@/features/ModalExample"
 import ToggleButton from "@/features/ToggleButton"
 
@@ -21,6 +22,12 @@ export default function UseStatePage() {
           description="Criei um botão, que ao clicar nele ele alterna entre azul e vermelho, onde azul é do estado ativo e vermelho do estado inativo"
         >
           <ToggleButton />
+        </Card>
+        <Card
+          title="Desafio 3"
+          description="Adicione um botão que incrementa o contador"
+        >
+          <ButtonIncrement />
         </Card>
       </PageContainer>
     </>

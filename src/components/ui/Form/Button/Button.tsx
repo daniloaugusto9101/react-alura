@@ -2,9 +2,9 @@ import type { ButtonProps } from "@/components/ui/Form/Button/Button.types"
 import "./Button.estilos.css"
 
 export default function Button({
-  children,
+  children = "Clique aqui",
   onClick,
-  btColor = "bg-blue-500",
+  btColor = "bg-gray-200",
 }: ButtonProps) {
   return (
     <button
