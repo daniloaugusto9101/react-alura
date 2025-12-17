@@ -1,5 +1,6 @@
 import RootLayout from "@/layout/RootLayout"
 import HomePage from "@/pages/Home"
+import UseStatePage from "@/pages/UseState"
 import { createBrowserRouter } from "react-router-dom"
 
 export const router = createBrowserRouter([
@@ -11,6 +12,10 @@ export const router = createBrowserRouter([
       {
         path: "/",
         element: <HomePage />,
+      },
+      {
+        path: "/use-state",
+        element: <UseStatePage />,
       },
     ],
   },

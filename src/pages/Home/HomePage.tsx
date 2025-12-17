@@ -10,7 +10,7 @@ const examples = [
   },
   {
     id: 2,
-    href: "/useState",
+    href: "/use-state",
     title: "useState",
     description: "Estado",
     gradient: "bg-gradient-to-r from-blue-500 to-cyan-500",
