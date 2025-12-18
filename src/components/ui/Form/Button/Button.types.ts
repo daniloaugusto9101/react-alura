@@ -1,7 +1,5 @@
-import React from "react"
+import * as React from "react"
 
-export type ButtonProps = {
-  children?: React.ReactNode
-  onClick?: () => void
+export type ButtonProps = React.ComponentProps<"button"> & {
   btColor?: "bg-gray-200" | "bg-blue-500" | "bg-red-500"
 }
