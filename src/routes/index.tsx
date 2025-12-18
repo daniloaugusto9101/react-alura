@@ -1,5 +1,6 @@
 import RootLayout from "@/layout/RootLayout"
 import HomePage from "@/pages/Home"
+import TypescriptPage from "@/pages/Typescript"
 import UseStatePage from "@/pages/UseState"
 import { createBrowserRouter } from "react-router-dom"
 
@@ -16,6 +17,10 @@ export const router = createBrowserRouter([
       {
         path: "/use-state",
         element: <UseStatePage />,
+      },
+      {
+        path: "/typecscript",
+        element: <TypescriptPage />,
       },
     ],
   },
