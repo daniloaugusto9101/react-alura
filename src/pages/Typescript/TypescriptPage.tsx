@@ -1,6 +1,10 @@
 import Card from "@/components/ui/Card"
+import {
+  InputGroup,
+  InputGroupInput,
+  InputGroupText,
+} from "@/components/ui/input-group"
 import PageContainer from "@/components/ui/PageContainer"
-import InputExample from "@/features/InputExample"
 
 export default function TypescriptPage() {
   return (
@@ -13,7 +17,14 @@ export default function TypescriptPage() {
           title="Desafio 1"
           description="Criei um elemento input personalizado"
         >
-          <InputExample />
+          <InputGroup>
+            <InputGroupText>Nome</InputGroupText>
+            <InputGroupInput type="text" placeholder="Digite seu nome" />
+          </InputGroup>
+          <InputGroup>
+            <InputGroupText>Email</InputGroupText>
+            <InputGroupInput type="email" placeholder="Digite seu email" />
+          </InputGroup>
         </Card>
       </PageContainer>
     </>
