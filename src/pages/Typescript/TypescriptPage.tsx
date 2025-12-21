@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button"
 import Card from "@/components/ui/Card"
 import {
   InputGroup,
@@ -25,6 +26,7 @@ export default function TypescriptPage() {
             <InputGroupText>Email</InputGroupText>
             <InputGroupInput type="email" placeholder="Digite seu email" />
           </InputGroup>
+          <Button>Enviar</Button>
         </Card>
       </PageContainer>
     </>
