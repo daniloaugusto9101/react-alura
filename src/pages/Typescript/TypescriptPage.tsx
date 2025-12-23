@@ -7,6 +7,7 @@ import {
 } from "@/components/ui/input-group"
 import PageContainer from "@/components/ui/PageContainer"
 import Example2Type from "@/features/Example2Type/Example2Type"
+import Example3Type from "@/features/Example3Type/Example3Type"
 
 export default function TypescriptPage() {
   return (
@@ -34,6 +35,12 @@ export default function TypescriptPage() {
           description="Criei um checkbox e faça tipagem dele de forma explicita"
         >
           <Example2Type label="Aceita?" />
+        </Card>
+        <Card
+          title="Desafio 3"
+          description="Exemplo de uso de type com useState"
+        >
+          <Example3Type />
         </Card>
       </PageContainer>
     </>
