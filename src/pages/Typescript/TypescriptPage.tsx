@@ -6,6 +6,7 @@ import {
   InputGroupText,
 } from "@/components/ui/input-group"
 import PageContainer from "@/components/ui/PageContainer"
+import Example2Type from "@/features/Example2Type/Example2Type"
 
 export default function TypescriptPage() {
   return (
@@ -27,6 +28,12 @@ export default function TypescriptPage() {
             <InputGroupInput type="email" placeholder="Digite seu email" />
           </InputGroup>
           <Button>Enviar</Button>
+        </Card>
+        <Card
+          title="Desafio 2"
+          description="Criei um checkbox e faça tipagem dele de forma explicita"
+        >
+          <Example2Type label="Aceita?" />
         </Card>
       </PageContainer>
     </>
