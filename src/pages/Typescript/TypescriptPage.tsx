@@ -9,6 +9,7 @@ import PageContainer from "@/components/ui/PageContainer"
 import Example2Type from "@/features/Example2Type/Example2Type"
 import Example3Type from "@/features/Example3Type/Example3Type"
 import Example4Type from "@/features/Example4Type"
+import Example5Type from "@/features/Example5Type"
 
 export default function TypescriptPage() {
   return (
@@ -48,6 +49,12 @@ export default function TypescriptPage() {
           description="Faça um requição API usando todos o conhceimnto de typescrip"
         >
           <Example4Type />
+        </Card>
+        <Card
+          title="Desafio 5"
+          description="Crie um play de video com typescript"
+        >
+          <Example5Type />
         </Card>
       </PageContainer>
     </>
