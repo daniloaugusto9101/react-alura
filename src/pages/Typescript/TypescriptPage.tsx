@@ -10,6 +10,7 @@ import Example2Type from "@/features/Example2Type/Example2Type"
 import Example3Type from "@/features/Example3Type/Example3Type"
 import Example4Type from "@/features/Example4Type"
 import Example5Type from "@/features/Example5Type"
+import Example6Type from "@/features/Example6Type"
 
 export default function TypescriptPage() {
   return (
@@ -55,6 +56,12 @@ export default function TypescriptPage() {
           description="Crie um play de video com typescript"
         >
           <Example5Type />
+        </Card>
+        <Card
+          title="Desafio 6"
+          description="Crie um play de video com typescrip e seus controles"
+        >
+          <Example6Type />
         </Card>
       </PageContainer>
     </>
